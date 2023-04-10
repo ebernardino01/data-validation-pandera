@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nashville-housing-data-validation"
+version = "0.1.0"
+description = "Data validation demo using pandera"
+authors = ["Edilou Bernardino"]
+readme = "README.md"
+packages = [{include = "nashville_housing_data_validation"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+pandera = "^0.14.5"
+black = "^23.3.0"
+pyyaml = "^6.0"
+frictionless = "^5.10.5"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
