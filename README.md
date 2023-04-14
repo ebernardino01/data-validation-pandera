@@ -3,7 +3,7 @@
 This demonstrates the use of `pandera` Python data validation library. Official documentation can be found here:
 https://pandera.readthedocs.io
 
-The Nashville Housing dataset will be used here.
+As an example, Nashville Housing dataset will be used, and a data validation report in Excel format will be generated.
 
 
 ## Setting up the Development Environment
